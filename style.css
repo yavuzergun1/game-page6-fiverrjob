@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Gorditas";
+  src: url("../fonts/Gorditas-Regular.ttf");
+}
+@font-face {
+  font-family: "LoveYa";
+  src: url("../fonts/LoveYaLikeASister.ttf");
+}
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  height: auto;
+  min-width: 640px;
+  background-image: url("/assets/bg.png");
+  padding-top: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+header {
+  width: 850px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+header .logo {
+  width: 150px;
+  height: 100px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-right: 25px;
+}
+
+.window {
+  position: relative;
+  width: 60%;
+  max-width: 550px;
+  height: 400px;
+  background-color: rgb(32, 34, 49);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.window-container {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.brand {
+  background-image: url(./assets/Rectangle\ 105.png);
+  width: 80px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.brand-title img {
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.window-title {
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.http {
+  width: 80%;
+  height: 40px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  border: 1px solid rgb(255, 212, 72);
+  display: flex;
+  padding: 0px 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.http img {
+  width: 5%;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logos img {
+  width: 30%;
+}
+
+@media (max-width: 945px) {
+  body {
+    height: 100vh;
+  }
+  .window {
+    height: 300px;
+  }
+}/*# sourceMappingURL=style.css.map */
